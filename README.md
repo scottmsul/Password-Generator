@@ -32,19 +32,18 @@ A list of words is a good password for two reasons.
 First, each word has a lot of entropy, making a password difficult to crack.
 Second, words are more memorable than other password techniques, such as inserting random capitalizations, numbers, or punctuation marks.
 A trick for memorizing a list of words is the [link method](http://www.memorizeeverything.com/core_skills/lists/).
-To use the link method, create a strong mental story which connects each pair of words, and visualize the story as strongly as possible.
+To use the link method, create a strong mental story for each pair of words, and visualize each story as strongly as possible.
 It can help to create a single story which incorporates all the words.
-Here's an example of five words generated from the script:
+Here's an example of five words generated from the script, and a story to go with it:
   - pan
   - lose
   - blew
   - gas
   - clothes
 
-Here's a story:
-"I was cooking in a *pan* on the side of a mountain, which we were about to *lose* because it was so windy.
-Eventually, the wind *blew* so hard that we lost the pan, along with the *gas* canister.
-The next thing to blow away were all the *clothes* I had packed."
+"I was cooking in a **pan** on the side of a mountain, which we were about to **lose** because it was so windy.
+Eventually, the wind **blew** so hard that we lost the pan, along with the **gas** canister.
+The next thing to blow away were all the **clothes** I had packed."
 To memorize the list of words, imagine each part of the story as vividly as possible.
 
 ### Passwords in general
