@@ -1,6 +1,6 @@
 # Password Generator
 
-This Python script generates a random memorable password by selecting words from a dictionary.
+This Python script generates a random memorable password by selecting words from a dictionary, as described in this [xkcd](https://xkcd.com/936/).
 The list of words is taken from this [blog post](http://preshing.com/20110811/xkcd-password-generator/), with the actual list in this [PHP script](http://preshing.com/files/xkcd_pw.js.php).
 When generating words, the script uses `random.SystemRandom`, which relies on `/dev/urandom`.
 For why this is important, see [here](http://sockpuppet.org/blog/2014/02/25/safely-generate-random-numbers/).
@@ -25,6 +25,26 @@ Some useful information about password entropy can be found on [Wikipedia](https
 A strong password might have 50-60 bits, while a physically unbreakable password might have 80-90 bits.
 The password generator prints out both the entropy per word and the total entropy.
 For more entropy, simply use more words.
+
+### Remembering passwords
+
+A list of words is a good password for two reasons.
+First, each word has a lot of entropy, making a password difficult to crack.
+Second, words are more memorable than other password techniques, such as inserting random capitalizations, numbers, or punctuation marks.
+A trick for memorizing a list of words is the [link method](http://www.memorizeeverything.com/core_skills/lists/).
+To use the link method, create a strong mental story which connects each pair of words, and visualize the story as strongly as possible.
+It can help to create a single story which incorporates all the words.
+Here's an example of five words generated from the script:
+  - pan
+  - lose
+  - blew
+  - gas
+  - clothes
+Here's a story:
+"I was cooking in a *pan* on the side of a mountain, which we were about to *lose* because it was so windy.
+Eventually, the wind *blew* so hard that we lost the pan, along with the *gas* canister.
+The next thing to blow away were all the *clothes* I had packed."
+To memorize the list of words, imagine each part of the story as vividly as possible.
 
 ### Passwords in general
 
