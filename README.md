@@ -40,6 +40,7 @@ Here's an example of five words generated from the script:
   - blew
   - gas
   - clothes
+
 Here's a story:
 "I was cooking in a *pan* on the side of a mountain, which we were about to *lose* because it was so windy.
 Eventually, the wind *blew* so hard that we lost the pan, along with the *gas* canister.
