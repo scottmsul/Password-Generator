@@ -17,10 +17,10 @@ The default is 5 words, while I personally use 8 words for my keepassx password.
 The entropy of a password is a measure of how strong it is.
 Entropy is related to the number of guesses an attacker would have to attempt in order to brute-force someone's password.
 The precise definition of entropy is the log base 2 of the search space.
-For example, if a password was a random 5-digit number, the password space would have 10^5 possible passwords, and log2(10^5) = 16.61 bits of entropy.
+For example, if a password was a random 5-digit number, the search space would have 10^5 possible passwords, and log2(10^5) = 16.61 bits of entropy.
 If a password was on the list of the [1000 most common passwords](http://www.passwordrandom.com/most-popular-passwords) (such as "123456"), it would have at most log2(1000) = 9.97 bits of entropy.
 
-The dictionary contains about 2000 words (1949 to be exact), which is about 11 bits of entropy per word.
+The dictionary contains about 2000 words (1949 to be exact), which is approximately 11 bits of entropy per word.
 Some useful information about password entropy can be found on [Wikipedia](https://en.wikipedia.org/wiki/Password_strength#Required_bits_of_entropy).
 A strong password might have 50-60 bits, while a physically unbreakable password might have 80-90 bits.
 The password generator prints out both the entropy per word and the total entropy.
