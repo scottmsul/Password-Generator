@@ -45,11 +45,11 @@ def run(num):
   entropy = entropy_per_word(words)
   total_entropy = entropy*num
 
-  print "chosen words:"
+  print("chosen words:")
   for word in chosen:
-    print "  " + word
-  print "entropy per word: " + str(entropy)
-  print "total entropy: " + str(total_entropy)
+    print("  " + word)
+  print("entropy per word: " + str(entropy))
+  print("total entropy: " + str(total_entropy))
 
 if __name__ == '__main__':
   args = args()
